@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Sigma",
+        "role": "tank",
+        "description": "A tank that keeps his distance using his ranged attacks and a deployable barrier",
+        "imgUrl": "./Image/ow-images/sigma.webp"
+    },
+    {
+        "name": "Soldier 76",
+        "role": "damage",
+        "description": "Just a solider that likes to peak from side angles using his pulse rifle",
+        "imgUrl": "./Image/ow-images/5soldier76.webp"
+    },
+    {
+        "name": "mercy",
+        "role": "support",
+        "description": "A main support that uses her staff to heal or damage boost her teammates",
+        "imgUrl": "./Image/ow-images/mercy.webp"
+    }
+]

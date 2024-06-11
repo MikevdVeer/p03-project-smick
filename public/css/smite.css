@@ -1,0 +1,727 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background-color: linear-gradient(90deg,
+      rgba(56, 20, 69, 0.918),
+      rgba(0, 0, 0, 0.854));
+  ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg,
+      rgba(54, 12, 58, 0.918),
+      rgba(0, 0, 0, 0.854));
+  ;
+  border-radius: 10px;
+}
+
+:root {
+  --nav-bg: linear-gradient(90deg,
+      rgba(58, 5, 1, 0.804),
+      rgba(0, 0, 0, 0.918),
+      rgba(1, 7, 30, 0.854),
+      rgba(23, 8, 53, 0.854));
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: var(--nav-bg);
+  font-family: sans-serif;
+  font-size: large;
+  z-index: 9999;
+}
+
+header img {
+  position: relative;
+  max-width: 120px;
+  height: 100%;
+}
+
+nav {
+  float: left;
+  margin: 25px;
+}
+
+nav a,
+nav li {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+nav li {
+  position: relative;
+}
+
+.fa-caret-down {
+  padding-left: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border-top: 4px solid rgb(1, 1, 3);
+  background: linear-gradient(90deg,
+      rgba(58, 5, 1, 0.804),
+      rgba(0, 0, 0, 0.918),
+      rgba(1, 7, 30, 0.854),
+      rgba(23, 8, 53, 0.854));
+  min-width: 150px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* backdrop-filter: blur(10px); */
+}
+
+/* height: auto for positioning options */
+video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.front-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  /* text-align: center; */
+  font-size: 1.2em;
+  color: white;
+  z-index: 3;
+}
+
+.front-text h2,
+p {
+  text-align: center;
+}
+
+.front-text img {
+  width: 100%;
+}
+
+.front-text button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.img-bg img {
+  width: 100%;
+  z-index: -9999;
+}
+
+/* smite gods */
+.god {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+  font-family: "Metal Mania", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  color: whitesmoke;
+  font-size: 1.7rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  font-weight: 1000;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 250px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 300ms;
+}
+
+.cards .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(20px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.cards:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.cards .sci li p {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cards:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.cards .name {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 1000;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.cards img {
+  width: 190%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(155deg,
+      rgba(58, 5, 1, 0.804),
+      rgba(0, 0, 0, 0.918),
+      rgba(1, 7, 30, 0.854),
+      rgba(23, 8, 53, 0.854));
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.discript {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+}
+
+.video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Patch */
+.patch-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.patch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(155deg,
+      rgba(207, 81, 46, 0.871),
+      rgba(109, 63, 33, 0.918),
+      rgba(201, 92, 92, 0.854));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: linear-gradient(rgba(148, 99, 99, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://webcdn.hirezstudios.com/smite-media/wp-content/uploads/SMITE-PatchBadge-11r1-BlogHeader-2560x695-1.jpg");
+}
+
+article {
+  margin-top: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smite-patch {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smitelink {
+  color: rgb(204, 206, 98);
+  font-weight: bolder;
+}
+
+
+/* relics */
+.relics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+  font-family: "Metal Mania", system-ui;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.relics1 {
+  background: linear-gradient(200deg,
+      rgba(16, 5, 36, 0.871),
+      rgba(8, 45, 80, 0.918),
+      rgba(24, 5, 68, 0.918),
+      rgba(32, 1, 35, 0.871));
+}
+
+.relics-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  font-weight: 1000;
+  max-width: 900px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+
+/* maps list */
+.map {
+  font-family: "Metal Mania", system-ui;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.maps-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+
+.cards1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 597px;
+  height: 350px;
+  margin: 15px;
+  /* transition: transform 0.2s;
+  border: 2px solid black;  */
+  /* width: 350px;
+  height: 220px; */
+  z-index: 5;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 300ms;
+}
+
+.cards1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.name1 {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+  color: #fff;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background: linear-gradient(155deg,
+      rgba(32, 1, 35, 0.871),
+      rgba(24, 5, 68, 0.918),
+      rgba(15, 7, 5, 0.871),
+      rgba(135, 84, 7, 0.854));
+}
+
+.maps-wrapper .card1 .sci {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+}
+
+.maps-wrapper .card1 .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.maps-wrapper .card1:hover .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.maps-wrapper .card1 .sci li p {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* search */
+.search input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: none;
+}
+
+.item h2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  transform: scale3d(1.2, 1.05, 1);
+}
+
+.item:hover {
+  border-radius: 0;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.item-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-top-right-radius: 25px;
+}
+
+.previus-next-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.previus-next-btn button {
+  box-sizing: border-box;
+  position: relative;
+  min-width: 10.625rem;
+  color: whitesmoke;
+  padding: 10px;
+  background-color: #4b106d;
+  margin-top: 10px;
+  font-family: "Metal Mania", system-ui;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0.16em;
+  font-weight: 500;
+  text-align: center;
+  border-top-left-radius: 7em 5em;
+  border-bottom-right-radius: 7em 5em;
+  cursor: pointer;
+}
+
+
+.item {
+  position: relative;
+  width: calc(10% - 20px);
+  /* min-height: 350px; */
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  max-width: 100%;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+/* change color to white when the image is shown */
+.item h2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  transform: scale3d(1.2, 1.05, 1);
+}
+
+.item:hover {
+  border-radius: 0;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-top-right-radius: 25px;
+}
+
+
+
+/* new page */
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(186deg,
+      rgba(135, 84, 7, 0.854),
+      rgba(15, 7, 5, 0.871));
+  height: 200px;
+  width: 100%;
+  color: #fff;
+}
+
+footer .logo {
+  /* margin: 5px; */
+  font-size: xx-large;
+  color: yellow;
+  /* padding: 10px; */
+}
+
+footer img {
+  width: 150px;
+}
+
+i {
+  cursor: pointer;
+  margin: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Overlay menu styles */
+.overlay-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease;
+  padding: 10px;
+}
+
+.overlay-menu.open {
+  right: 0;
+}
+
+.overlay-menu ul {
+  /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  list-style: none;
+  padding: 0;
+}
+
+.overlay-menu ul li {
+  margin-bottom: 20px;
+}
+
+.overlay-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Hide the menu icon on desktop */
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  nav .dropdown {
+    display: none;
+  }
+
+  .gods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    /* Changed height to auto */
+  }
+
+  .cards-wrapper {
+    max-width: 90%;
+    /* Adjusted max-width for better responsiveness */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Apply global styles for .relics and .maps */
+  .relics,
+  .maps {
+    padding: 20px;
+  }
+
+  .cards {
+    width: calc(33.33% - 20px);
+    /* Adjusted width to fit three cards in a row with margin */
+    height: auto;
+    margin: 10px;
+  }
+
+  /* Adjusted styles for the names */
+  .name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Adjusted width for full width */
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    /* Adjusted font size */
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  .name1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Adjusted width for full width */
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    /* Adjusted font size */
+    color: #fff;
+    margin-left: 0;
+    /* Removed margin-left */
+    margin-bottom: 30px;
+  }
+}

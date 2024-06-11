@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Achilles",
+        "releaseDate": "27022018",
+        "pantheon": "Greek",
+        "role": "Warrior",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://www.superherodb.com/pictures2/portraits/10/100/14144.jpg?v=1674764459"
+    },
+    {
+        "name": "Agni",
+        "releaseDate": "21052012",
+        "pantheon": "Hindu",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.yk0amXmqg0RbvISoolQKdgHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Amaterasu",
+        "releaseDate": "12012016",
+        "pantheon": "Japanese",
+        "role": "Warrior",
+        "type": "Melee",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://i.pinimg.com/736x/c2/ca/e2/c2cae21ca79dd8f8c2061030e8978759--amaterasu-gods-and-goddesses.jpg"
+    },
+    {
+        "name": "Apollo",
+        "releaseDate": "30062015",
+        "pantheon": "Greek",
+        "role": "Hunter",
+        "type": "Ranged",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.Kcc73jTERzv4jIjQ9oGVJQHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Ares",
+        "releaseDate": "04082012",
+        "pantheon": "Greek",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.qYwLqKCsYHM2HtoI0UTKTgHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Ra",
+        "releaseDate": "31052012",
+        "pantheon": "Egyptian",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.m3xaQYSEsbIvSQoTKbHutgHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Ah Mozen Cad",
+        "releaseDate": "20131107",
+        "pantheon": "Maya",
+        "role": "Hunter",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://gamepedia.cursecdn.com/smite_gamepedia/1/10/SkinArt_AhMuzenCab_Default.jpg"
+    },
+    {
+        "name": "Aphrodite",
+        "releaseDate": "20131303",
+        "pantheon": "Greek",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Range",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.lp6oBbwrbVBeEinIca5g6gAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Artio",
+        "releaseDate": "08012017",
+        "pantheon": "Celtic",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://vignette.wikia.nocookie.net/smite/images/a/ad/Artio.jpg/revision/latest?cb=20170726213551"
+    },
+    {
+        "name": "Artemis",
+        "releaseDate": "31052012",
+        "pantheon": "Greek",
+        "role": "Hunter",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.o2_7tuP2HSN68PMWUQweugAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Athena",
+        "releaseDate": "05062013",
+        "pantheon": "Greek",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.ohmjQzEkqTXQbq_ZATg-YgHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Atlas",
+        "releaseDate": "14122021",
+        "pantheon": "Greek",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.c0c3c2efa457eceb86d2b3ce5846218a?rik=wkhDJ%2fdJbXlWgg&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Awilix",
+        "releaseDate": "17122014",
+        "pantheon": "Maya",
+        "role": "Assassin",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://i.pinimg.com/originals/e3/53/5a/e3535a3ca520cad41d6f0f57069a122b.jpg"
+    },
+    {
+        "name": "Anhur",
+        "releaseDate": "03082012",
+        "pantheon": "Egyptian",
+        "role": "Hunter",
+        "type": "Physical",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://i.pinimg.com/originals/84/9f/da/849fda6676de58d41910bcc6f4df95ac.jpg"
+    },
+    {
+        "name": "Anubis",
+        "releaseDate": "31052012",
+        "pantheon": "Egyptian",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://i.pinimg.com/736x/01/28/d8/0128d85416aa70ca1e70794b677b3806--zbrush-character-character-reference.jpg"
+    },
+    {
+        "name": "Ao Kuang",
+        "releaseDate": "19112014",
+        "pantheon": "Chinese",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://gamepedia.cursecdn.com/smite_gamepedia/3/3b/SkinArt_AoKuang_Default.jpg"
+    },
+    {
+        "name": "Rama",
+        "releaseDate": "24062014",
+        "pantheon": "Hindu",
+        "role": "Hunter",
+        "type": "Physical",
+        "basicAttackType": "Range",
+        "seasons": {},
+        "image": "https://gamepedia.cursecdn.com/smite_gamepedia/thumb/0/00/SkinArt_Rama_Default.jpg/500px-SkinArt_Rama_Default.jpg?version=d66de86aa0ff89f30310b2419ac13d47"
+    },
+    {
+        "name": "Raijin",
+        "releaseDate": "16022016",
+        "pantheon": "Japanese",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Ranged",
+        "seasons": {},
+        "image": "https://gamepedia.cursecdn.com/smite_gamepedia/4/4f/T_Raijin_Tier2_Card.png?version=01bfb1ec41b755965afde7755d30d392"
+    },
+    {
+        "name": "Baba Yaga",
+        "releaseDate": "21042020",
+        "pantheon": "Slavic",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://i.pinimg.com/736x/d6/92/d4/d692d470b540dc3f8b2f2cd608fc9086.jpg"
+    },
+    {
+        "name": "Bacchus",
+        "releaseDate": "190102012",
+        "pantheon": "roman",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.9-K265T5pSN7rPUDdlARUAHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Bakasura",
+        "releaseDate": "20062012",
+        "pantheon": "Hindu",
+        "role": "Assassin",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.M4fQj-OUgF9-Ny1zdfSHsgHaJx?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Bake Kujira",
+        "releaseDate": "12122023",
+        "pantheon": "Japanese",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.Lclj6gcAYdzr3GfeNGTSjwAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Baron Samedi",
+        "releaseDate": "26062018",
+        "pantheon": "Voodoo",
+        "role": "Mage",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.4rgWacZ2fxa9RUe4_6h6NQAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Bastet",
+        "releaseDate": "31052012",
+        "pantheon": "Egyptian",
+        "role": "Assassin",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://i.pinimg.com/originals/d2/15/29/d2152968c1b5503ae369b54be14dee45.jpg"
+    },
+    {
+        "name": "Bellona",
+        "releaseDate": "25022015",
+        "pantheon": "Roman",
+        "role": "Warrior",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.QiFo8SP73a6dCzKY8bdzfgHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Cabrakan",
+        "releaseDate": "19082014",
+        "pantheon": "Maya",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.botY7oefGleDSGE7zzkQ8QHaJu?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Camazotz",
+        "releaseDate": "11092016",
+        "pantheon": "Maya",
+        "role": "Assassin",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.a62b5351f8ccfd6c9a2ce317b19510e4?rik=V2ZA3Oxr6FnT9A&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Cerberus",
+        "releaseDate": "09012018",
+        "pantheon": "Greek",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.ed72eca9cb46f18a5a9a2d6582cfe9cc?rik=9%2f6gikX4yiR8Zg&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Cernunnos",
+        "releaseDate": "",
+        "pantheon": "Celtic",
+        "role": "Hunter",
+        "type": "Ranged",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.e0ccc52f3399b853f5edde1a3c5b1f20?rik=VjaxOmZOFOb8gQ&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Chaac",
+        "releaseDate": "18122013",
+        "pantheon": "Maya",
+        "role": "Warrior",
+        "type": "Melee",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.3017d7a8a4800e671b3f7ad7804d3044?rik=caeRzmi3JyFIcg&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Chang'e",
+        "releaseDate": "24062013",
+        "pantheon": "Chinese",
+        "role": "Mage",
+        "type": "Ranged",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://vignette.wikia.nocookie.net/heroes-of-camelot/images/8/87/Chang'e.png/revision/latest?cb=20140908222552"
+    },
+    {
+        "name": "Charon",
+        "releaseDate": "11062023",
+        "pantheon": "Greek",
+        "role": "Guardian",
+        "type": "Ranged",
+        "basicAttackType": "Magical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.pIQgy-WQ6HpSvOZZTG-PZgAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Charybdis",
+        "releaseDate": "",
+        "pantheon": "Greek",
+        "role": "Hunter",
+        "type": "Ranged",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.d204dab0a068bf125c7ca4301cd36d99?rik=ffiMkLBP4b%2bqlg&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Chernobog",
+        "releaseDate": "15052018",
+        "pantheon": "Slavic",
+        "role": "Hunter",
+        "type": "Ranged",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.PD6sLRKotNngTSvdeI9qGAAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Chiron",
+        "releaseDate": "17102015",
+        "pantheon": "Greek",
+        "role": "Hunter",
+        "type": "Ranged",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/R.5b9e10f7834aa39e1ac1075c099d0501?rik=RZyaReq9Y32ALg&pid=ImgRaw&r=0"
+    },
+    {
+        "name": "Chronos",
+        "releaseDate": "10072012",
+        "pantheon": "Greek",
+        "role": "Mage",
+        "type": "Ranged",
+        "basicAttackType": "Magical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.Vn-EAVv3doSewvYWSmeRLwHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Cliodhna",
+        "releaseDate": "19082011",
+        "pantheon": "Celtic",
+        "role": "Assassin",
+        "type": "Melee",
+        "basicAttackType": "Physical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.fnSQ5REzJdUNX51FAAbW8AAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Cthulhu",
+        "releaseDate": "16062020",
+        "pantheon": "Great Old Ones",
+        "role": "Guardian",
+        "type": "Melee",
+        "basicAttackType": "Magical",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.Y2ZHRJApf319IA498fFWDAHaJ4?rs=1&pid=ImgDetMain"
+    },
+    {
+        "name": "Ganesha",
+        "releaseDate": "25042017",
+        "pantheon": "Hindu",
+        "role": "Guardian",
+        "type": "Magical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://www.xafarstudio.com/wp-content/uploads/2021/08/Happy-Ganesh-Chaturthi-1.jpg"
+    },
+    {
+        "name": "Loki",
+        "releaseDate": "02112012",
+        "pantheon": "Norse",
+        "role": "Assassin",
+        "type": "Physical",
+        "basicAttackType": "Melee",
+        "seasons": {},
+        "image": "https://th.bing.com/th/id/OIP.DrcjVq4ool_nvnmHNbPkEAHaJ4?rs=1&pid=ImgDetMain"
+    }
+]

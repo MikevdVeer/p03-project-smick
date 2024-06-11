@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/c3a6393286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/smite.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./Image/logo.png" />
+    <script defer src="./js/smite.js"></script>
+    <title>Smite</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html#home">
+            <img src="./Image/logo2.png" alt="" />
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html#overons">Over ons</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+
+                <li class="dropdown">
+                    <a href="League-of-legends.html">
+                        <span class="dropbtn">League of Legends <i class="fa fa-caret-down"></i></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="League-of-legends.html#home">Free to Play</a>
+                        <a href="League-of-legends.html#champions">Champions</a>
+                        <a href="League-of-legends.html#styles">Styles</a>
+                        <a href="League-of-legends.html#maps">Maps</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="overwatch.html">
+                        <span class="dropbtn">Overwatch <i class="fa fa-caret-down"></i></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="overwatch.html#heros">Hero's</a>
+                        <a href="overwatch.html#weapons">weapons</a>
+                        <a href="overwatch.html#owGamemodes">Gamemodes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="">
+                        <span class="dropbtn">Smite <i class="fa fa-caret-down"></i></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#home">Free to play</a>
+                        <a href="#gods">Gods</a>
+                        <a href="#patch">Patch</a>
+                        <a href="#relics">Relics</a>
+                        <a href="#maps">Maps</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- menu Icon -->
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <div class="overlay-menu">
+                <input type="text" placeholder="Search.." />
+                <ul>
+                    <li><a href="League-of-legends.html">League of Legends</a></li>
+                    <li><a href="#">Overwatch</a></li>
+                    <li><a href="smite.html">Smite</a></li>
+                    <!-- Add more menu items here -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="home">
+            <div class="front-text">
+                <h2>Welcome to SMITE!</h2>
+                <p>
+                    Explore a world of the <br />
+                    Get ready for endless fun and excitement!
+                </p>
+            </div>
+            <div class="video">
+                <video src="./videos/SMITE 2 - Official Reveal Trailer.mp4" muted autoplay loop></video>
+            </div>
+        </div>
+
+        <!-- <smite gods section> -->
+        <section class="gods" id="gods">
+            <div class="search">
+                <input placeholder="search" name="keyword" id="keyword" type="text" value="" autocomplete="off"
+                    oninput="searchItems()" maxlength="16" />
+            </div>
+            <div class="god">GODS</div>
+            <div class="cards-wrapper"></div>
+
+            <div class="previus-next-btn">
+                <button class="prevuis-gods">back</button>
+                <button class="next-gods">next</button>
+            </div>
+        </section>
+
+        <section class="patch" id="patchnotes">
+            <div id="patch"></div>
+            <div class="patch-wrapper">
+
+                <h2>Patch Notes</h2>
+
+                <article>
+                    <p class="smite-patch">
+                        Dive into the next generation of SMITE with the SMITE 2 Founder’s
+                        Edition!<br />
+                        <br />
+                        Pick up a SMITE 2 Founder’s Edition on Steam, Epic Games, Xbox, or
+                        PlayStation coming soon to guarantee game access for our Closed
+                        Alpha Weekend Test Events this Spring along with a TON of other in
+                        game loot including Cross-Gen Skins in SMITE 1 and 2, Avatars,
+                        Badges and more!<br />
+                        <br />
+                        Don’t forget, purchasing a Founder’s Edition will also DOUBLE your
+                        Legacy Gems in SMITE 2!<br />
+                        <br />
+                        We can’t wait for you all to get your hands on SMITE 2 and to
+                        start building the game alongside you during Closed Alpha. <br>Get
+                        ready to join us with a Founder’s Edition!<br />
+                        <br />
+                        For more information, check out
+                        <a class="smitelink" href="https://www.smitegame.com/news/nut-a-closer-look/" target="blank">The
+                            Official Blog
+                            HERE</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="relics1" id="relics">
+            <h2 class="relics">RELICS</h2>
+            <div class="relics-wrapper"></div>
+        </section>
+
+        <section class="maps" id="maps">
+            <h2 class="map">MAPS</h2>
+            <div class="maps-wrapper"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <img src="./Image/logo2.png" alt="" />
+        </div>
+        <div class="copyright">&copy; Copyright claim 2024 Smick</div>
+        <div class="code-links">
+            <!-- <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-code"></i> -->
+        </div>
+    </footer>
+</body>
+
+</html>

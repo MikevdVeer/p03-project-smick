@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./Image/logo.png" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Smick/League of Legends</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./Image/logo2.png" alt="">
+        </a>
+        <nav>
+
+            <li><a href="index.html#overons">Over ons</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+
+            <!-- idk how to link page with id tag -->
+            <li class="dropdown">
+                <a href="League-of-legends.html">
+                    <span class="dropbtn">League of Legends<i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#home">Play</a>
+                    <a href="#champions">Champions</a>
+                    <a href="#skins">Skins</a>
+                    <a href="#maps">Maps</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="overwatch.html">
+                    <span class="dropbtn">Overwatch <i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="overwatch.html#heros">Hero's</a>
+                    <a href="overwatch.html#weapons">weapons</a>
+                    <a href="overwatch.html#owGamemodes">Gamemodes</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="smite.html">
+                    <span class="dropbtn">Smite <i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="smite.html#home">Home</a>
+                    <a href="smite.html#gods">Gods</a>
+                    <a href="smite.html#patchnotes">Patch</a>
+                    <a href="smite.html#relics">Relics</a>
+                    <a href="smite.html#maps">Maps</a>
+                </div>
+            </li>
+
+            <!-- menu Icon -->
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <div class="overlay-menu">
+                <input type="text" placeholder="Search.." />
+                <ul>
+                    <li><a href="League-of-legends.html">League of Legends</a></li>
+                    <li><a href="overwatch.html">Overwatch</a></li>
+                    <li><a href="smite.html">Smite</a></li>
+                    <!-- Add more menu items here -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- video trailer-->
+        <div class="container" id="home">
+            <div class="front-text">
+                <img src="https://www.leagueoflegends.com/static/logo-1200-04b3cefafba917c9c571f9244fd28a1e.png" alt="">
+                <a href="/Image/League-of-legends.jpg" download>
+                    <button class="btn">Download now</button>
+                </a>
+            </div>
+            <!-- maybe change image into video -->
+            <div class="video">
+                <video src="./videos/league of legends-trailer.webm" preload="auto" autoplay loop></video>
+            </div>
+            <!-- I don't know what I am doing but It somehow works :) -->
+            <section id="champions">
+
+                <div class="intro-content">
+                    <h2>Choose your</h2>
+                    <h1>Champions</h1>
+                    <p>With more than 140 champions, you’ll find the perfect match for<br> your playstyle. Master one,
+                        or master them all.</p>
+                    <button class="btn">DISCOVER MORE CHAMPIONS</button>
+                </div>
+                <div class="champs">
+                    <div class="rolelist">
+                        <div class="search">
+                            <input placeholder="search" name="keyword" id="keyword" type="text" value=""
+                                autocomplete="off" oninput="searchInSection()" maxlength="16">
+
+                        </div>
+                        <div class="role-list">
+                            <ul>
+                                <li>ALL</li>
+                                <li>ASSASSINS</li>
+                                <li>FIGHTERS</li>
+                                <li>MAGES</li>
+                                <li>MARKSMEN</li>
+                                <li>SUPPORTS</li>
+                                <li>TANKS</li>
+                            </ul>
+                        </div>
+                        <div class="dif">
+                            <select class="difficulty" name="difficulty" id="difficulty">
+                                <option value="all">All DIFFICULTIES</option>
+                                <option value="easy">EASY</option>
+                                <option value="normal">NORMAL</option>
+                                <option value="hard">HARD</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <div class="championStats"></div>
+                        </div>
+                    </div>
+                    <div class="item-box" id="champs">
+
+                    </div>
+                    <div class="previus-next-btn">
+                        <button class="prevuis-champs">back</button>
+                        <button class="next-champs">next</button>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <section id="skins">
+                <div class="intro-content">
+                    <h2>Slay with</h2>
+                    <h1>Style</h1>
+                    <p>Make it personal by changing up the look of your favorite champions with skins.</p>
+                    <a href="/Image/League-of-legends.jpg" download>
+                        <button class="blue-btn">Play Now</button>
+                    </a>
+                </div>
+
+                <div id="styles" class="img-container">
+                    <img src="" alt="">
+                </div>
+            </section>
+
+            <section id="maps">
+                <div class="intro-content">
+                    <h2>Multiple ways to</h2>
+                    <h1>Play</h1>
+                    <a href="/Image/League-of-legends.jpg" download>
+                        <button class="blue-btn">Play Now</button>
+                    </a>
+                </div>
+                <div class="map-vid">
+                    <video id="videoPlayer" preload="auto" autoplay muted>
+                    </video>
+                </div>
+            </section>
+            <footer>
+                <div class="logo">
+                    <img src="./Image/logo2.png" alt="">
+                </div>
+                <div class="copyright">
+                    &copy; Copyright claim 2024 Smick
+
+                </div>
+                <div class="code-links">
+                    <!-- <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-code"></i> -->
+                </div>
+            </footer>
+        </div>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

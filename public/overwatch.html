@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./Image/logo.png" />
+    <link rel="stylesheet" href="./css/overwatch.css">
+    <title>Smick/League of Legends</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./Image/logo2.png" alt="">
+        </a>
+        <nav>
+
+            <li><a href="index.html#overons">Over ons</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+
+            <!-- idk how to link page with id tag -->
+            <li class="dropdown">
+                <a href="League-of-legends.html">
+                    <span class="dropbtn">League of Legends<i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="League-of-legends.html#home">Play</a>
+                    <a href="League-of-legends.html#champions">Champions</a>
+                    <a href="League-of-legends.html#skins">Skins</a>
+                    <a href="League-of-legends.html#maps">Maps</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="">
+                    <span class="dropbtn">Overwatch <i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#heros">Hero's</a>
+                    <a href="#weapons">weapons</a>
+                    <a href="#owGamemodes">Gamemodes</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="smite.html">
+                    <span class="dropbtn">Smite <i class="fa fa-caret-down"></i></span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="smite.html#home">Home</a>
+                    <a href="smite.html#gods">Gods</a>
+                    <a href="smite.html#patchnotes">Patch</a>
+                    <a href="smite.html#maps">Maps</a>
+                </div>
+            </li>
+
+            <!-- menu Icon -->
+            <i class="fa-solid fa-bars menu-icon"></i>
+            <div class="overlay-menu">
+                <input type="text" placeholder="Search.." />
+                <ul>
+                    <li><a href="League-of-legends.html">League of Legends</a></li>
+                    <li><a href="overwatch.html">Overwatch</a></li>
+                    <li><a href="smite.html">Smite</a></li>
+                    <!-- Add more menu items here -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- video trailer-->
+        <div class="container" id="home">
+            <div class="front-text">
+                <h1>Welcome</h1>
+                <h1>to Overwatch</h1>
+            </div>
+            <!-- maybe change image into video -->
+            <div class="video">
+                <video src="./image/ow-images/Overwatch2_Trailer.webm" preload="auto" autoplay loop></video>
+            </div>
+            <!-- I don't know what I am doing but It somehow works :) -->
+            <section id="heros">
+
+                <div class="intro-content">
+                    <h1>An introduction to all the hero's</h1>
+                    <p>Each hero has it's own unique ability's</p>
+                    <p>Pick what's best for YOU</p>
+                </div>
+                <div class="heros">
+                    <div class="rolelist">
+                        <div class="search">
+                            <input placeholder="search" name="keyword" id="keyword" type="text" value=""
+                                autocomplete="off" oninput="searchItems()" maxlength="16">
+                        </div>
+                    </div>
+
+                    <div class="item-box" id="champs">
+
+                    </div>
+                    <div class="previus-next-btn">
+                        <button class="prevuis-champs">back</button>
+                        <button class="next-champs">next</button>
+                    </div>
+
+                </div>
+
+
+            </section>
+
+            <section id="weapons">
+                <div class="intro-content">
+                    <h1>Weapons</h1>
+                    <h2>pick your hero based on weapon style</h2>
+                </div>
+
+                <div id="styles" class="weapon-wrapper">
+                    <div class="weapon-images">
+                        <div class="weapon-card">
+                            <img src="Image/ow-images/reiny.webp" alt="">
+                        </div>
+                        <div class="weapon-card">
+                            <img src="Image/ow-images/5soldier76.webp" alt="">
+                        </div>
+                        <div class="weapon-card">
+                            <img src="Image/ow-images/hanzo.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="weapon-names">
+                        <div>
+                            <h2>Melee</h2>
+                        </div>
+                        <div>
+                            <h2>Hitscan</h2>
+                        </div>
+                        <div>
+                            <h2>projectile</h2>
+                        </div>
+                    </div>
+                    <div class="weapon-discription">
+                        <div>
+                            <p>Go through all the ranged obstacles to smash down your opponent</p>
+                        </div>
+                        <div>
+                            <p>shoot directly where you are aiming, the projectiles are so fast you can't even see them
+                                move</p>
+                        </div>
+                        <div>
+                            <p>Try to predict where your opponent is going and strike them down with a rewarding amount
+                                of damage</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="owGamemodes">
+                <div class="intro-content">
+                    <h1>There are multiple objectives to reach</h1>
+                </div>
+                <div class="map-buttons">
+                    <div>
+                        <button class="flashpoint-btn">flashpoint</button>
+                    </div>
+                    <div>
+                        <button class="push-btn">push</button>
+                    </div>
+                    <div>
+                        <button class="hybrid-btn">hybrid</button>
+                    </div>
+
+
+
+                </div>
+                <div class="map-show">
+                    <img class="map-image" src="" alt="">
+                </div>
+
+                <div class="map-discription">
+
+                </div>
+            </section>
+            <footer>
+                <div class="logo">
+                    <img src="./Image/logo2.png" alt="">
+                </div>
+                <div class="copyright">
+                    &copy; Copyright claim 2024 Smick
+
+                </div>
+                <div class="code-links">
+                    <!-- <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-code"></i> -->
+                </div>
+            </footer>
+        </div>
+    </main>
+
+
+    <script src="./js/overwatch.js"></script>
+    <script src="./js/ow-mode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Magic Shell",
+    "description": "Using this item applies a shield to yourself and allies within 35 units for 100 Health + 12 Health per God Level for 3 seconds.",
+    "image": "https://th.bing.com/th/id/OIP.6A5BKAXaPnmQrMda3oH2nAAAAA?rs=1&pid=ImgDetMain"
+  },
+  {
+    "name": "Purification Beads",
+    "description": "Using this item removes Crowd Control Effects and makes you immune to new.",
+    "image": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c4/PurificationBeads_Relic.png?version=a9695d67046a2f94a0b90de0c374d170"
+  },
+  {
+    "name": "Horn Shard",
+    "description": "Your non-ultimate ability cooldowns are reduced by 0.5s every 0.5s for the next",
+    "image": "https://th.bing.com/th/id/OIP.iVty0wj1plEacClN5_8g8QAAAA?rs=1&pid=ImgDetMain"
+  },
+  {
+    "name": "Vision Shard",
+    "description": "Using this item places a ward that lasts 90 seconds.",
+    "image": "https://th.bing.com/th/id/OIP.6eQ7FxmKzuaHLeRHwedSfwAAAA?rs=1&pid=ImgDetMain"
+  },
+  {
+    "name": "Aegis Amulet",
+    "description": "Using this item makes you invulnerable to damage and healing for 1.5s, and prevents you from taking any actions. You may still move. Cooldown - 170s",
+    "image": "https://i.ytimg.com/vi/IhinkkcN3dM/maxresdefault.jpg"
+  },
+  {
+    "name": "Blink Rune",
+    "description": "Using this item will allow you to teleport up to 45 units away instantly. This item can not be used if you",
+    "image": "https://th.bing.com/th/id/OIP.F8yybl_RIMU0h1Uru8BKjQAAAA?rs=1&pid=ImgDetMain"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Conquest",
+    "description": "The classic SMITE game mode. The ultimate test of skill, god mastery, and teamwork. Play 5v5 with a mission to destroy your opponents’ Titan, carefully navigating the map’s 3 lanes, enemy towers and phoenixes.",
+    "image": "https://www.gamespace.com/wp-content/uploads/2021/04/SMITE-Conquest-Map-The-Rising-Storm-Update.jpg"
+  },
+  {
+    "name": "Arena",
+    "description": "Minions take center stage in the closed-off Colosseum of old. Defend your portal from minions and reign victorious!",
+    "image": "https://assets.tentonhammer.com/app/public/ckeditor/picture/000/048/095/content/smitegamemode-arena.jpg"
+  },
+  {
+    "name": "Assault",
+    "description": "Test your luck with Assault! A one lane, 5v5 mode with no jungle and a random God selection.",
+    "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/smite/d/d8/Assault_map.jpg"
+  },
+  {
+    "name": "Joust",
+    "description": "Hone your MOBA skills in this one-lane, one-jungle map. Defend your base, and try to destroy your enemies’ Titan.",
+    "image": "https://images.wikia.com/smite_gamepedia/images/thumb/0/04/2016-01-05_175834.jpg/1200px-2016-01-05_175834.jpg"
+  },
+  {
+    "name": "Clash",
+    "description": "Slash is a 5v5 mode highlighting the Egyptian and Maya Pantheons. In this two-laned mode, defeat the enemy Titan with the help of unique objectives like Apophis and Juggernauts.",
+    "image": "https://vignette.wikia.nocookie.net/smite/images/9/90/ClashegyptPCLauncher.jpg/revision/latest?cb=20170721221629"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "styles": [
+    {
+      "name": "Skin 1",
+      "url": "Image/skin-(1).png"
+    },
+    {
+      "name": "Skin 2",
+      "url": "Image/skin-(2).png"
+    },
+    {
+      "name": "Skin 3",
+      "url": "Image/skin-(3).png"
+    }
+  ]
+}
